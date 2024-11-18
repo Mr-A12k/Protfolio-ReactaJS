@@ -84,7 +84,7 @@ const Header = () => {
   };
 
   return (
-    <header className="p-3 dark:bg-gray-100 dark:text-gray-800 shadow-md dark:shadow-lg relative z-10">
+    <header className="fixed top-0 left-0 w-full p-3 dark:bg-gray-100 dark:text-gray-800 shadow-md dark:shadow-lg relative z-50">
       <div className="container flex justify-between items-center h-12 mx-auto">
         {/* Logo / Home Link */}
         <h1 className="text-3xl font-bold text-gray-800">Portfolio</h1>
